@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicon.png" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/quries.css" />
+
+    <script defer src="script.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
+    <title>MEDOCEAN GLOBAL | TURKIYE</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="Medocean Logo" src="img/web-02.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link" id="estetik_birim" href="#"
+              >Estetik Birimlerimiz <span class="down_arrow">&#x25BC;</span></a
+            >
+          </li>
+          <li>
+            <a id="medikal_birimlerimiz" class="main-nav-link" href="#"
+              >Medikal Birimlerimiz <span class="down_arrow">&#x25BC;</span></a
+            >
+          </li>
+          <li>
+            <a class="main-nav-link" href="#cta"
+              >Medikal Kadromuz <span class="down_arrow">&#x25BC;</span></a
+            >
+          </li>
+          <div class="dropdown">
+            <button class="dropbtn">TR <span>&#x25BC;</span></button>
+            <div class="dropdown-content">
+              <a href="#"><img src="img/flag/turkey.png" alt="TR" /> TR</a>
+              <a href="#"><img src="img/flag/uk.png" alt="EN" /> EN</a>
+              <a href="#"><img src="img/flag/germany.png" alt="DE" /> DE</a>
+              <a href="#"><img src="img/flag/spain.png" alt="ES" /> ES</a>
+              <a href="#"><img src="img/flag/france.png" alt="FR" /> FR</a>
+              <a href="#"><img src="img/flag/italy.png" alt="IT" /> IT</a>
+            </div>
+          </div>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <div class="navigation hidden">
+      <div class="icons">
+        <div class="icon_">
+          <img src="img/icons/hair.icon.png" alt="Saç" />
+          <p>Saç</p>
+        </div>
+        <div class="icon_">
+          <img src="img/icons/kas-icon.png" alt="Kaş" />
+          <p>Kaş</p>
+        </div>
+        <div class="icon_">
+          <img src="img/icons/goz-icon.png" alt="Göz" />
+          <p>Göz</p>
+        </div>
+        <div class="icon_">
+          <img src="img/icons/burun-icon.png" alt="Burun" />
+          <p>Burun</p>
+        </div>
+        <div class="icon_">
+          <img src="img/icons/dis-icon.png" alt="Diş" />
+          <p>Diş</p>
+        </div>
+        <div class="icon_">
+          <img src="img/icons/yanak.png" alt="Yanak" />
+          <p>Yanak</p>
+        </div>
+        <div class="icon_">
+          <img src="img/icons/kulak-icon.png" alt="Kulak" />
+          <p>Kulak</p>
+        </div>
+        <div class="icon_">
+          <img src="img/icons/cene-icon.png" alt="Çene" />
+          <p>Çene</p>
+        </div>
+        <div class="icon_">
+          <img src="img/icons/gidi-icon.png" alt="Gıdı" />
+          <p>Gıdı</p>
+        </div>
+        <div class="icon_">
+          <img src="img/icons/meme-icon.png" alt="Meme" />
+          <p>Meme</p>
+        </div>
+        <div class="icon_">
+          <img src="img/icons/kol-icon.png" alt="Kol" />
+          <p>Kol</p>
+        </div>
+        <div class="icon_">
+          <img src="img/icons/simit-icon.png" alt="Simmit" />
+          <p>Simit</p>
+        </div>
+        <div class="icon_">
+          <img src="img/icons/göbek-icon.png" alt="Göbek" />
+          <p>Göbek</p>
+        </div>
+        <div class="icon_">
+          <img src="img/icons/popo-icon.png" alt="Popo" />
+          <p>Popo</p>
+        </div>
+        <div class="icon_">
+          <img src="img/icons/bacak-icon.png" alt="Bacak" />
+          <p>Bacak</p>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="menu-category">
+          <a
+            class="nav_two_page_link"
+            href="https://medoceanglobal.com/sac-ekimi"
+            ><h3>Saç Ekimi</h3></a
+          >
+          <ul>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/safir-fue"
+                >Safir FUE</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/dhi-sac-ekimi"
+                >DHI Saç Ekimi</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/agrisiz-sac-ekimi"
+                >Ağrısız Saç Ekimi</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/sakal-ekimi"
+                >Sakal Ekimi</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/kadin-sac-ekim"
+                >Kadın Saç Ekimi</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/kas-ekimi"
+                >Kaş Ekimi</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="menu-category">
+          <a
+            class="nav_two_page_link"
+            href="https://medoceanglobal.com/dis-estetigi"
+          >
+            <h3>Diş Estetiği</h3></a
+          >
+          <ul>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/dis-kaplama"
+                >Diş Kaplama</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/hollywood-smile"
+                >Hollywood Smile</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/dis-dolgusu"
+                >Diş Dolgusu</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/dis-implanti"
+                >Diş İmplantı</a
+              >
+            </li>
+
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/dis-beyazlatma"
+                >Diş Beyazlatma</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/porselen-ve-lamina-estetigi"
+                >Porselen ve Lamine Estetiği</a
+              >
+            </li>
+
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/zirkonyum-kronlar"
+                >Zirkonyum Kronlar</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="menu-category">
+          <a
+            class="nav_two_page_link"
+            href="https://medoceanglobal.com/yuz-estetigi"
+          >
+            <h3>Yüz Estetiği</h3></a
+          >
+          <ul>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/rinoplasti"
+                >Rinoplasti</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/gidi-ve-boyun-estetigi"
+                >Gıdı ve Boyun Estetiği</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/yuz-germe"
+                >Yüz Germe</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/goz-kapagi-estetigi"
+                >Göz Kapağı Estetiği</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/kulak-estetigi"
+                >Kulak Estetiği</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/bisektomi"
+                >Bişektomi̇</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/dudak-kaldirma"
+                >Dudak Kaldırma</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="menu-category">
+          <a
+            class="nav_two_page_link"
+            href="https://medoceanglobal.com/vucut-estetigi"
+          >
+            <h3>Vücut Estetiği</h3></a
+          >
+          <ul>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/liposuction"
+                >Liposuction</a
+              >
+            </li>
+
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/karin-germe"
+                >Karın Germe</a
+              >
+            </li>
+
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/ust-kol-estetigi"
+                >Üst Kol Estetiği</a
+              >
+            </li>
+
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/genital-estetik"
+                >Genital Estetik
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/popo-estetigi"
+                >Popo Estetiği</a
+              >
+            </li>
+
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/bacak-estetigi"
+                >Bacak Estetiği</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/anne-estetigi"
+                >Anne Estetiği</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="menu-category">
+          <a
+            class="nav_two_page_link"
+            href="https://medoceanglobal.com/meme-estetigi"
+          >
+            <h3>Meme Estetiği</h3></a
+          >
+          <ul>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/meme-buyutme"
+                >Meme Büyütme</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/meme-kucultme"
+                >Meme Küçültme</a
+              >
+            </li>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/meme-diklestirme"
+                >Meme Dikleştirme</a
+              >
+            </li>
+
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/jinekomasti"
+                >Jinekomasti</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="menu-category">
+          <a
+            class="nav_two_page_link"
+            href="https://medoceanglobal.com/obezite"
+          >
+            <h3>Obezite</h3></a
+          >
+          <ul>
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/obezite-cerrahi"
+                >Obezite Cerrahi</a
+              >
+            </li>
+
+            <li>
+              <a
+                class="nav_three_page_link"
+                href="https://medoceanglobal.com/endoskopik-islemler"
+                >Endoskopik İşlemler</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="medikal_page hidden">
+      <a
+        class="nav_two_page_link"
+        href="https://medoceanglobal.com/medikal-birimlerimiz/onkoloji"
+        ><h3>Onkoloji</h3></a
+      >
+
+      <a
+        class="nav_two_page_link"
+        href="https://medoceanglobal.com/medikal-birimlerimiz/check-up"
+        ><h3>Check-Up</h3></a
+      >
+
+      <a
+        class="nav_two_page_link"
+        href="https://medoceanglobal.com/medikal-birimlerimiz/ortopedi"
+        ><h3>Ortopedi</h3></a
+      >
+
+      <a
+        class="nav_two_page_link"
+        href="https://medoceanglobal.com/medikal-birimlerimiz/tup-bebek"
+        ><h3>Tüp Bebek</h3></a
+      >
+
+      <a
+        class="nav_two_page_link"
+        href="https://medoceanglobal.com/medikal-birimlerimiz/beyin-sinir-sistemi"
+        ><h3>Beyin Sinir Sistemi</h3></a
+      >
+
+      <a
+        class="nav_two_page_link"
+        href="https://medoceanglobal.com/medikal-birimlerimiz/kardiyoloji"
+        ><h3>Kardiyolojii</h3></a
+      >
+      <a
+        class="nav_two_page_link"
+        href="https://medoceanglobal.com/medikal-birimlerimiz/algoloji-agri"
+        ><h3>Algoloji (Ağrı)</h3></a
+      >
+      <a
+        class="nav_two_page_link"
+        href="https://medoceanglobal.com/medikal-birimlerimiz/goz"
+        ><h3>Göz</h3></a
+      >
+    </div>
+
+    <main>
+      <section class="section-hero" id="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Health Tourism</h1>
+            <p class="hero-description">
+              Hair Transplant - Dental Stomach Reduction - Plastic Surgery
+            </p>
+            <div class="promo-container">
+              <div class="input-container">
+                <input type="text" placeholder="Enter any destinations" />
+                <button>&#x27A4;</button>
+              </div>
+              <div class="discount-text">GET 20% OFF</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="line"></div>
+
+      <section class="section-gallery">
+        <div class="gallery grid grid--4-cols">
+          <figure class="gallery-item">
+            <img
+              src="img/web-03.png"
+              alt="Photo of beautifully
+            arranged food"
+            />
+            <!-- <figcaption>Caption</figcaption> -->
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/web-04.png"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/web-05.png"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/web-06.png"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+        </div>
+        <div id="modal" class="modal">
+          <span id="close">&times;</span>
+          <img class="modal-content" id="modalImage" />
+        </div>
+      </section>
+      <div class="line"></div>
+
+      <section class="section-how" id="how">
+        <div class="container">
+          <img class="degisim_img" src="img/web-07.png" alt="" />
+        </div>
+
+        <div class="container grid grid--2-cols">
+          <!-- STEP 01 -->
+          <div class="step-text-box">
+            <p class="step-description">
+              20 yılı aşkın süredir sağlık profesyoneli olarak hizmet
+              vermekteyiz. Ekibimiz uzman hekim ve kıdemli hemşireden
+              oluşmaktadır. Hastanenin hemen tüm özellikli bölümlerinde görev
+              aldık. Hastanın operasyona hazırlanması, ameliyat esnasında takip,
+              ameliyat sonrası hastanede ve evde takip hizmetlerini sağladık.
+              Hastaya eşlik etme sürecimiz hastaneye gelmesiyle başlar ve tam
+              iyilik haline ulaşıncaya kadar devam eder. Hasta ve sağlık
+              kuruluşları yönünde olası problemleri biliyoruz, çözüm için
+              deneyimlerimizle sizinle birlikteyiz.
+            </p>
+            <button class="readmore">
+              Daha fazlasını okumak için tıklayın
+            </button>
+          </div>
+
+          <div class="step-img-box">
+            <img
+              src="img/web-10.png"
+              class="step-img"
+              alt="iPhone app
+            preferences selection screen"
+            />
+          </div>
+        </div>
+      </section>
+      <div class="line"></div>
+      <section class="last_page">
+        <img class="last_page_img" src="img/web-11.png" alt="" />
+      </section>
+      <div class="line"></div>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="Medocean Logo" src="img/web-02.png" />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a
+                class="footer-link"
+                href="https://www.instagram.com/ozelglobalyurt/?igsh=ZmF1eW5iczczcjZy"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                href="https://www.facebook.com/share/NZP46yQcfTToMNe2/?mibextid=LQQJ4d"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                href="https://www.tiktok.com/@ozel.global.yurt?_t=8pCD5EbBUls&_r=1"
+              ></a>
+              <ion-icon class="social-icon" name="logo-tiktok"></ion-icon>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2024</span> by Medocean, Inc.
+            All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Bize Ulaşın</p>
+          <address class="contacts">
+            <ul class="address footer-nav">
+              <li>
+                📍 Cevizli Mahallesi Kırıkkale Sokak No:9, Adam Kule Tower
+                No:26, Kartal/İstanbul
+              </li>
+            </ul>
+
+            <a class="footer-link" href="tel:0 530 773 77 65"
+              >0 5xxx xxx xx xx</a
+            ><br />
+          </address>
+        </div>
+
+        <!-- <nav class="nav-col">
+          <p class="footer-heading">Yurdumuz</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#section-hero">Hakkımızda</a></li>
+            <li><a class="footer-link" href="#room-fotos">Odalarımız</a></li>
+            <li><a class="footer-link" href="#cta">Iletisime Geçin</a></li>
+          </ul>
+        </nav> -->
+      </div>
+    </footer>
+  </body>
+</html>
